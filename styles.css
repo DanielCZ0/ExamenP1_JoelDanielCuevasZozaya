@@ -270,13 +270,12 @@ header{
 /*Suscripción*/
 .suscripcion {
     padding: 40px 60px;
-    background-color: #fff;
+    background-color: #F5F0E6;
     display: flex;
     justify-content: center;
 }
 
 .sub-box {
-    background-color: #f2ede8;
     width: 100%;
     padding: 30px;
     border-radius: 8px;
@@ -285,25 +284,38 @@ header{
     justify-content: space-between;
 }
 
-.sub-img {
-    width: 80px;
-    height: 80px;
-    background-color: #bbb;
-    border-radius: 5px;
+.s-tit {
+    font-size: 45px;
+}
+
+.s-sub{
+    font-size: 15px;
 }
 
 .sub-txt {
     max-width: 450px;
 }
 
+.sbtn{
+    color: #F5F0E6;
+    padding: 0 15px;
+    width: 150px;
+    height: 60px;
+    border-radius: 5px;
+    background-color:#C6A04A;
+    border-style:none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
 .sub-txt strong{
     margin: 5px 0;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .sub-txt p {
     margin: 0;
-    font-size: 13px;
+    font-size: 15px;
     color: #676767;
 }
 
@@ -321,8 +333,8 @@ header{
 
 /*Footer*/
 footer {
-    background-color: #fff;
-    color: #333;
+    background-color: #68745F;
+    color:#F5F0E6;
     font-size: 14px;
 }
 
@@ -340,25 +352,20 @@ footer {
 }
 
 .f-col a {
-    color: #676767;
+    color: #F5F0E6;
     font-size: 13px;
 }
 
-.f-icons {
-    display: flex;
-    gap: 10px;
+.ftit{
+    font-size: 30px;
+    font-weight: bold;
 }
 
-.fimg {
-    background-image: url('imgs/ic1.png');
-    background-size: cover;
-    background-position: center;
-    width: 25px;
-    height: 25px;
-    margin: 0;
-    background-color: #333;
-    border-radius: 50%;
+.fsub{
+    font-size: 12px;
+    text-align: center;
 }
+
 
 .footer-bottom {
     display: flex;
@@ -367,7 +374,6 @@ footer {
     padding-top: 20px;
     color: #fff;
     font-size: 12px;
-    background-color: #68745F;
 }
 
 
